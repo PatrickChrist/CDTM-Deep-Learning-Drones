@@ -10,3 +10,8 @@ nvidia-docker build -t YOURNICENAMEFORTHECONTAINER .
 ```
 nvidia-docker pull patrickchrist/cdtm-deep-learning-drones
 ```
+### Start Docker Container Using
+
+'''
+sudo nvidia-docker run -v /home/YOURACCOUNT:/data  -p 5000:5000 patrickchrist/cuda-digits-resnet
+'''
