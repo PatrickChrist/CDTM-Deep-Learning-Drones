@@ -12,7 +12,7 @@ nvidia-docker pull patrickchrist/cdtm-deep-learning-drones
 ```
 ### Start Docker Container Using
 ```
-sudo nvidia-docker run -v /home/YOURACCOUNT:/data  -p 5000:5000 patrickchrist/cuda-digits-resnet
+sudo nvidia-docker run -v /home/YOURACCOUNT:/data  -p 5000:5000 patrickchrist/cdtm-deep-learning-drones
 ```
 ### Enter a running Docker Container
 Get the docker container id and remember it.
