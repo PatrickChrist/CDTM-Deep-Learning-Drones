@@ -14,7 +14,15 @@ nvidia-docker pull patrickchrist/cdtm-deep-learning-drones
 ```
 sudo nvidia-docker run -v /home/YOURACCOUNT:/data  -p 5000:5000 patrickchrist/cuda-digits-resnet
 ```
-
+### Enter a running Docker Container
+Get the docker container id and remember it.
+```
+sudo nvidia-docker ps
+```
+Login using the following command.
+```
+sudo docker exec -it CONTAINERID bash
+```
 ## Object Detection Tutorial Using Digits DetectNET
 ### Download Data from Kitti
 ```
