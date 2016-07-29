@@ -42,7 +42,7 @@ RUN cd /root/caffe && \
 ENV CAFFE_HOME /root/caffe
 
 # Clone DIGITS repo and move into it
-RUN cd /root && git clone https://github.com/NVIDIA/DIGITS.git digits && cd digits && \
+RUN cd /root && git clone -b digits-4.0 https://github.com/NVIDIA/DIGITS.git digits && cd digits && \
 # pip install
   pip install -r requirements.txt
 
