@@ -23,6 +23,8 @@ Login using the following command.
 ```
 sudo docker exec -it CONTAINERID bash
 ```
+## Python ARDrone Lib
+To install the Python ARDrone Lib for Windows follow please the README in /python-ardrone.
 ## Object Detection Tutorial Using Digits DetectNET
 ### Download Data from Kitti
 ```
