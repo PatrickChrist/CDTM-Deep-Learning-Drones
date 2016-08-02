@@ -25,6 +25,9 @@ sudo docker exec -it CONTAINERID bash
 ```
 ## Python ARDrone Lib
 To install the Python ARDrone Lib for Windows follow please the README in /python-ardrone.
+
+## Python ARDone Lib PS-Drone
+Second Lib to control the drone.
 ## Object Detection Tutorial Using Digits DetectNET
 ### Download Data from Kitti
 ```
