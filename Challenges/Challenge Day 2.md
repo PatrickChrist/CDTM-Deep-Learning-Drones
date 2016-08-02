@@ -4,6 +4,7 @@ Connect to the GPU Lab using ssh and open Digits Webserver at localhost:5000
 ```
 ssh -L 5000:localhost:5000 gu95wot@clientsXX.clients.eikon.tum.de
 ```
+Where XX is your team number.
 ## 2. Run the Digits Tutorial LeNet
 Run the Digits LeNet Tutorial. https://github.com/NVIDIA/DIGITS/blob/master/docs/GettingStarted.md
 ## 3. Classify using python
@@ -17,3 +18,4 @@ Brainstorm what you want to track or recognize. Look for datasets online or gene
 - https://github.com/BVLC/caffe/blob/master/examples/net_surgery.ipynb
 - https://docs.google.com/presentation/d/1UeKXVgRvvxg9OUdh_UiC5G71UMscNPlvArsWER41PsU/edit#slide=id.p
 - https://github.com/BVLC/caffe/wiki/Model-Zoo
+- https://github.com/BVLC/caffe/blob/master/examples/00-classification.ipynb
