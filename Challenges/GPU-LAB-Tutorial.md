@@ -32,7 +32,9 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:${LD_LIBRARY_PATH}
 
 # Download Anaconda
 
-wget https://repo.continuum.io/archive/Anaconda2-4.0.0- Linux-x86_64.sh
+```
+wget https://repo.continuum.io/archive/Anaconda2-4.0.0-Linux-x86_64.sh
+```
 
 # install anaconda locally (Say yes to all defaults)
 
