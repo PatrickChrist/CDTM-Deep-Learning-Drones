@@ -10,10 +10,20 @@ nvidia-docker build -t YOURNICENAMEFORTHECONTAINER .
 ```
 nvidia-docker pull patrickchrist/cdtm-deep-learning-drones
 ```
+(or CPU-only:)
+```
+docker pull mjdev/cdtm-deep-learning-drones
+```
 ### Start Docker Container Using
+With Nvidia GPU:
 ```
-sudo nvidia-docker run -v /home/YOURACCOUNT:/data  -p 5000:5000 patrickchrist/cdtm-deep-learning-drones
+sudo nvidia-docker run -v /home/$(whoami):/data -p 5000:5000 patrickchrist/cdtm-deep-learning-drones
 ```
+or CPU-only:
+```
+docker run -v /home/$(whoami):/data -p 5000:5000 mjdev/cdtm-deep-learning-drones
+```
+
 ### Enter a running Docker Container
 Get the docker container id and remember it.
 ```
