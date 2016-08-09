@@ -2,9 +2,9 @@
 ## 1. Connect to the GPU Lab
 Connect to the GPU Lab using ssh and open Digits Webserver at localhost:5000
 ```
-ssh -L 5000:localhost:5000 gu95wot@clientsXX.clients.eikon.tum.de
+ssh -L 5000:localhost:5000 gu95wot@hpcXX.clients.eikon.tum.de
 ```
-Where XX is your team number.
+Where XX is your team number. Follow the installation guide in GPU-Lab-Tutorial.
 ## 2. Run the Digits Tutorial LeNet
 Run the Digits LeNet Tutorial. https://github.com/NVIDIA/DIGITS/blob/master/docs/GettingStarted.md
 ## 3. Classify using python
