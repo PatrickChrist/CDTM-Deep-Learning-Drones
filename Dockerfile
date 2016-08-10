@@ -36,7 +36,7 @@ RUN cd /root/caffe && \
 # Make and move into build directory
   mkdir build && cd build && \
 # CMake
-  cmake .. && \
+  cmake -DCPU_ONLY=ON .. && \
 # Make
   make -j"$(nproc)"
 # Set CAFFE_HOME
