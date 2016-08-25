@@ -32,7 +32,7 @@ for i=1:n_steps
    % Control
    % These two lines are required to control the object
    e_int = e_int + (u-x)*dt;
-   u_t = K_p * (u - x) + K_d * (w - v) + K_i * e_int;
+   u_t = K_p * (u - x) + K_d * (0 - v) + K_i * e_int;
    
    
    % Some more complex actor dynamics

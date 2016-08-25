@@ -46,7 +46,7 @@ for i=1:n_steps
    t_values = [t_values t];
 end
 
-plot(t_values, x_values, 'b', t_values, v_values, 'r', t_values, z);
+plot(t_values, x_values, 'b', t_values, v_values, 'r', t_values, u);
 
 
 
