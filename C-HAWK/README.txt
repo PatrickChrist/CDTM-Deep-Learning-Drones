@@ -16,3 +16,5 @@ Connect your laptop to the drone and run CentralControl.py.
 For takeoff press any key. 
 Now the drone should try to follow the chessboard.
 For landing the drone press space.
+
+Authors: Christian Gebhardt and Christian Münch
