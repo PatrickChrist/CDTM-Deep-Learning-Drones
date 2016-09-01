@@ -1,0 +1,12 @@
+[submodule "lib/liboki"]
+	path = lib/liboki
+	url = git://srobo.org/libkoki.git
+[submodule "lib/pykoki"]
+	path = lib/pykoki
+	url = git://srobo.org/pykoki.git
+[submodule "lib/kokimarker"]
+	path = lib/kokimarker
+	url = git://srobo.org/kokimarker.git
+[submodule "lib/python-aruco"]
+	path = lib/python-aruco
+	url = https://github.com/fehlfarbe/python-aruco.git
