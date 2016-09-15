@@ -1,0 +1,421 @@
+/*TODO: Remove in final version*/
+.TODO {
+  color: red !important;
+}
+
+.tabs-vertical .tabs-navigation {
+  min-width: 280px;
+}
+
+.teamTab .teamName {
+  color: black;
+  padding:0;
+}
+
+.teamTab .raceTimes {
+  padding: 0;
+  color: grey;
+  text-align: right;
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+#cdtmLogo {
+  width: 80%;
+  max-width: 60vw;
+  min-width: 100px;
+  margin: 20px;
+}
+
+.student {
+  padding: 0;
+}
+
+.student h5 {
+  margin-bottom: 2px;
+}
+
+.student .subtitle {
+  font-size: 0.9em;
+}
+
+.student .image-box-description {
+  margin-bottom: 0;
+}
+
+.student.col-xs-6 {
+  margin-top: 20px;
+}
+
+.footerList {
+  padding-left:0;
+}
+
+.footerList li {
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 1020px) {
+  .group-process { display: flex; }
+}
+
+.block-process {
+     padding-left: 15px;
+     padding-right: 15px;
+     position: relative;
+     z-index: 10;
+}
+
+.block-process::before, .block-process::after {
+     content: " ";
+     display: table;
+}
+
+.block-process::after {
+     clear: both;
+}
+
+.block-process::before, .block-process::after {
+     content: " "video {
+   width:100%;
+   max-width:500px;
+   height:auto;
+};
+     display: table;
+}
+
+.block-process::after {
+     clear: both;
+}
+
+.block-process .__icon {
+     position: relative;
+}
+
+.block-process .__icon::before {
+     background: #99e3c1 none repeat scroll 0% 0%;
+     content: "";
+     display: block;
+     position: absolute;
+     z-index: -1;
+}
+
+.block-process:last-child .__icon::before {
+     display: none;
+}
+
+.block-process.active .__icon .circle-icon::before {
+     background-color: #00bfff;
+}
+
+.block-process.active .__icon::before, .block-process.active ~ .block-process .__icon::before {
+     background-color: #dadada;
+}
+
+.block-process.active ~ .block-process .__icon .circle-icon::before {
+     background-color: #a2a2a2;
+}
+
+@media only screen and (min-width: 1020px) {
+  .block-process { text-align: center; }
+  .block-process .__title { height: 60px; margin-bottom: 0px; }
+  .block-process .__icon { margin: 0px -15px 40px; }
+  .block-process .__icon::before { width: 100%; top: 50%; height: 4px; transform: translateY(-50%); }
+  .block-process .__icon::before { left: 50%; }
+  .group-process.large-icon .block-process .__icon .circle-icon::before { width: 140px; height: 140px; border: 10px solid rgba(255, 255, 255, 0.6); line-height: 120px ! important; font-size: 40px; }
+}
+
+@media only screen and (max-width: 1019px) {
+  .block-process { padding-left: 100px; padding-bottom: 20px; }
+  .block-process .__title { margin-bottom: 10px; }
+  .block-process .__icon { position: absolute; width: 70px; height: 100%; left: 15px; top: 0px; }
+  .block-process .__icon::before { width: 4px; height: 100%; left: 50%; transform: translateX(-50%); }
+}
+
+.block-process-2 {
+     position: relative;
+}
+
+.block-process-2 .cell-vertical-wrapper {
+     height: 320px;
+}
+
+.block-process-2 .__number {
+     bottom: 0px;
+     color: #333333;
+     font-size: 200px;
+     height: 200px;
+     left: 6px;
+     line-height: 1;
+     margin-bottom: auto;
+     margin-top: auto;
+     opacity: 0.04;
+     position: absolute;
+     top: -20px;
+}
+
+.block-process-2 .__block {
+     margin-left: auto;
+     margin-right: auto;
+     padding-bottom: 40px;
+     padding-top: 40px;
+}
+
+.block-process-2 .__block > * {
+     letter-spacing: 0.05em;
+}
+
+.block-process-2 .__block .__title {
+     font-size: 14px;
+     margin-bottom: 10px;
+}
+
+.block-process-2 .__block p.__content {
+     margin-bottom: 0px;
+}
+
+.block-process-2.size-small .cell-vertical-wrapper {
+     height: 240px;
+}
+
+.block-process-2.size-small .__block > * {
+     letter-spacing: 0px;
+}
+
+.block-process-2.size-small .__block .__title {
+     font-size: 18px;
+     margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 1020px) {
+  .block-process-2 .__block { max-width: 320px; }
+}
+
+@media only screen and (max-width: 1019px) {
+  .block-process-2 .__block { max-width: 720px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Icon-box-list */
+.group-icon-box-list-right-slider {
+  position: relative;
+}
+.group-icon-box-list-right-slider .__block-wrapper-1,
+.group-icon-box-list-right-slider .__block-wrapper-2 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.group-icon-box-list-right-slider .__block-wrapper-1 .__block,
+.group-icon-box-list-right-slider .__block-wrapper-2 .__block {
+  margin-right: auto;
+  margin-left: auto;
+}
+.group-icon-box-list-right-slider .__block-wrapper-1 {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.group-icon-box-list-right-slider .__block-wrapper-1 .__block .hr-header {
+  margin-bottom: 30px;
+}
+.group-icon-box-list-right-slider .__block-wrapper-2 {
+  position: relative;
+}
+.group-icon-box-list-right-slider .__block-wrapper-2 .cell-vertical-wrapper {
+  table-layout: fixed;
+}
+.group-icon-box-list-right-slider .__block-wrapper-2 .__block {
+  max-width: 640px;
+}
+@media only screen and (min-width: 768px ) {
+  .group-icon-box-list-right-slider .__block-wrapper-1 .__block {
+    width: 720px;
+  }
+}
+@media only screen and (min-width: 1020px ) {
+  .group-icon-box-list-right-slider .__block-wrapper-1 .__block {
+    width: 960px;
+  }
+}
+@media only screen and (min-width: 1230px ) {
+  .group-icon-box-list-right-slider .__block-wrapper-1,
+  .group-icon-box-list-right-slider .__block-wrapper-2 {
+    width: 50%;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .group-icon-box-list-right-slider .__block-wrapper-1 .__block {
+    max-width: 680px;
+  }
+  .group-icon-box-list-right-slider .__block-wrapper-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 1229px ) {
+  .group-icon-box-list-right-slider .__block-wrapper-2 {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+}
+.group-icon-box-list-side-image {
+  position: relative;
+}
+.group-icon-box-list-side-image:before,
+.group-icon-box-list-side-image:after {
+  content: " ";
+  display: table;
+}
+.group-icon-box-list-side-image:after {
+  clear: both;
+}
+.group-icon-box-list-side-image:before,
+.group-icon-box-list-side-image:after {
+  content: " ";
+  display: table;
+}
+.group-icon-box-list-side-image:after {
+  clear: both;
+}
+.group-icon-box-list-side-image .__block-wrapper-2 {
+  padding-top: 100px;
+  padding-bottom: 75px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.group-icon-box-list-side-image .__block-wrapper-2 .__block {
+  margin-right: auto;
+  margin-left: auto;
+}
+.group-icon-box-list-side-image .__block-wrapper-2 .__block > .__title {
+  margin-bottom: 20px;
+}
+.group-icon-box-list-side-image .__block-wrapper-2 .__block > .__caption {
+  margin-bottom: 50px;
+}
+.group-icon-box-list-side-image .__block-wrapper-2 .__block .block-icon-box-left-icon {
+  margin-bottom: 25px;
+}
+.group-icon-box-list-side-image .__block-wrapper-2 .__block .block-icon-box-left-icon .__right-side .__heading {
+  padding-top: 5px;
+  margin-bottom: 8px;
+}
+@media only screen and (min-width: 768px ) {
+  .group-icon-box-list-side-image .__block-wrapper-2 .__block {
+    width: 720px;
+  }
+}
+@media only screen and (min-width: 1020px ) {
+  .group-icon-box-list-side-image .__block-wrapper-2 .__block {
+    width: 960px;
+  }
+}
+@media only screen and (min-width: 1230px ) {
+  .group-icon-box-list-side-image .__block-wrapper-1,
+  .group-icon-box-list-side-image .__block-wrapper-2 {
+    width: 50%;
+  }
+  .group-icon-box-list-side-image .__block-wrapper-2 {
+    padding-right: 30px;
+    padding-left: 30px;
+    float: right;
+  }
+  .group-icon-box-list-side-image .__block-wrapper-2 .__block {
+    max-width: 700px;
+  }
+  .group-icon-box-list-side-image .__block-wrapper-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 1229px ) {
+  .group-icon-box-list-side-image .__block-wrapper-1 {
+    position: relative;
+    min-height: 500px;
+  }
+}
+
+.btn-center {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+}
+
+.static-background {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.teams-video {
+   width:100%;
+   max-width:720px;
+   height:auto;
+}

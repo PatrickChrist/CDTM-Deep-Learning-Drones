@@ -1,0 +1,333 @@
+/* DEFAULT HEX COLOR: #26B8F3 */
+
+
+/* CHANE IT BY REPLEACING THE VALUE ABOVE */
+
+::-moz-selection {
+    background: #26B8F3;
+    color: #333;
+    text-shadow: none;
+}
+::selection {
+    background: #26B8F3;
+    text-shadow: none;
+    color: #333;
+}
+.text-colored,
+h1.text-colored,
+h2.text-colored,
+h3.text-colored,
+h4.text-colored,
+h5.text-colored,
+h6.text-colored,
+.color-font,
+.color-font a,
+.widget-tweeter li a,
+.widget-twitter li a,
+p.text-colored,
+.heading.heading-colored h1,
+.heading.heading-colored h2 {
+    color: #26B8F3 !important;
+}
+.progress-bar-container.color .progress-bar {
+    background-color: #26B8F3;
+    color: #fff;
+}
+.blockquote-color {
+    background-color: #26B8F3;
+    color: #fff;
+}
+.blockquote-color > small {
+    color: #fff;
+}
+
+/*buttons*/
+.button.color,
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.open > .dropdown-toggle.btn-primary {
+    background-color: #26B8F3 !important;
+    border: 1px solid #26B8F3 !important;
+}
+
+/*go to top*/
+
+.gototop-button {
+    background-color: #26B8F3;
+}
+.gototop-button {
+    color: #fff;
+}
+nav .main-menu .dropdown-menu {
+    border-color: #26B8F3;
+}
+#header:not(.header-transparent) #mainMenu > ul > li:hover > a,
+#header:not(.header-transparent) #mainMenu > ul > li.current-menu > a {
+    color: #26B8F3;
+}
+#topbar.topbar-colored {
+    background-color: #26B8F3;
+}
+
+/*vertical-dot-menu */
+
+#vertical-dot-menu a:hover .cd-dot,
+#vertical-dot-menu a.active .cd-dot {
+    background-color: #26B8F3;
+}
+
+/*scrollspy nav */
+
+
+/*.sidebar-menu ul.nav-tabs li, */
+
+.sidebar-menu ul.nav-tabs li:hover .sidebar-menu ul.nav-tabs li a,
+.sidebar-menu ul.nav-tabs li a:hover,
+.sidebar-menu ul.nav-tabs li.active a,
+.sidebar-menu ul.nav-tabs li.active a:hover {
+    color: #fff;
+    background: #26B8F3;
+    border: 1px solid #26B8F3;
+}
+
+/*Bootstrap defaults overrides*/
+
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+    background-color: #26B8F3;
+    border-color: #26B8F3;
+}
+.list-group-item.active .list-group-item-text,
+.list-group-item.active:hover .list-group-item-text,
+.list-group-item.active:focus .list-group-item-text {
+    color: #fff;
+}
+.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge {
+    color: #26B8F3;
+}
+pre {
+    background-color: #fcfcfc;
+    border: 1px solid #ececec;
+}
+.alert {
+    border-left-width: 10px;
+    border-radius: 0;
+}
+.alert-success {
+    background-color: #5cb85c;
+    border-color: #53af53;
+}
+.alert-info {
+    background-color: #2699c8;
+    border-color: #3aaddc;
+}
+.alert-warning {
+    background-color: #f6b63a;
+    border-color: #ffcd51;
+}
+.alert-danger {
+    background-color: #de4b37;
+    border-color: #f3604c;
+}
+.alert,
+.alert a.alert-link {
+    color: #fff;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    background-color: #26B8F3;
+    border-color: #26B8F3;
+    color: #fff;
+}
+.pagination > li > a:hover i,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+    color: #333;
+}
+
+/*navs*/
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    background-color: #26B8F3;
+    color: #fff;
+}
+
+/*Typography*/
+
+a:hover {
+    color: #26B8F3;
+}
+
+/*dropcat & highlight*/
+
+.dropcap.dropcap-colored,
+.dropcap.dropcap-colored a,
+.highlight.highlight-colored,
+.highlight.highlight-colored a {
+    background-color: #26B8F3;
+    color: #fff;
+}
+
+/*timeline*/
+
+.timeline.timeline-colored .timeline-circles:before,
+.timeline.timeline-colored .timeline-circles:after,
+.timeline.timeline-colored .timeline-date,
+.timeline.timeline-colored:before {
+    background-color: #26B8F3;
+    color: #fff;
+}
+.timeline.timeline-colored li .timeline-block:before {
+    border-color: transparent #26B8F3;
+}
+.timeline.timeline-colored .timeline-block-image {
+    border-color: #26B8F3;
+}
+.timeline.timeline-colored.timeline-simple .timeline-date {
+    background-color: #fff;
+    border: 1px solid #26B8F3;
+    color: #26B8F3;
+}
+
+/*tabs*/
+
+.border .tabs-navigation li.active a:after {
+    background: #26B8F3;
+}
+
+/*accordions*/
+
+.breadcrumb a:hover {
+    color: #26B8F3;
+}
+
+/*color*/
+
+.accordion.color .ac-item .ac-title {
+    background: #26B8F3;
+    color: #fff;
+}
+.accordion.color-border-bottom .ac-item .ac-title {
+    border-bottom: 1px dotted #26B8F3;
+}
+.accordion.color-border-bottom .ac-item .ac-title:before {
+    color: #26B8F3;
+}
+
+/*ICONS*/
+
+.icon-box.color .icon i {
+    background: #26B8F3;
+    color: #fff;
+}
+.icon-box.color .icon i:after {
+    box-shadow: 0 0 0 3px #26B8F3;
+}
+.icon-box.border.color .icon,
+.icon-box.border.color .icon i {
+    color: #26B8F3;
+    border-color: #26B8F3;
+}
+.icon-box.fancy.color .icon i {
+    color: #26B8F3;
+    background-color: transparent;
+}
+
+/*FONT AWESOME ICONS*/
+
+.fontawesome-icon-list .fa-hover a:hover {
+    background-color: #26B8F3;
+}
+
+/*lists icons*/
+
+ul.icon-list li i {
+    color: #26B8F3;
+}
+
+/* ----------------------------------------------------------------
+    Backgrounds
+-----------------------------------------------------------------*/
+
+.background-colored {
+    background-color: #26B8F3 !important;
+}
+
+/* ----------------------------------------------------------------
+    NPROGRESS
+-----------------------------------------------------------------*/
+
+#nanobar-progress div {
+    background: #26B8F3 !important;
+}
+
+/* ----------------------------------------------------------------
+    PORTFOLIO
+-----------------------------------------------------------------*/
+
+.portfolio-filter li.ptf-active,
+.portfolio-filter li:hover {
+    background-color: #26B8F3;
+}
+.portfolio-filter li:not(.ptf-active):hover {
+    color: #26B8F3;
+}
+
+/* ----------------------------------------------------------------
+    HEADINGS
+-----------------------------------------------------------------*/
+
+.heading-title-border-color {
+    border-color: #26B8F3;
+}
+
+/* ----------------------------------------------------------------
+    IMAGE BOX
+-----------------------------------------------------------------*/
+
+.image-box-links a {
+    background-color: #26B8F3;
+}
+.image-box.effect.bleron {
+    background-color: #26B8F3;
+}
+.image-block-content .feature-icon {
+    background-color: #26B8F3;
+}
+.image-box.effect.bleron p.image-box-links a {
+    color: #26B8F3;
+}
+
+/* ----------------------------------------------------------------
+    SHOP PRODUCTS
+-----------------------------------------------------------------*/
+
+.product .product-wishlist a:hover {
+    border-color: #26B8F3;
+}
+
+/* ----------------------------------------------------------------
+    Carousel
+-----------------------------------------------------------------*/
+
+.carousel-description-style .owl-carousel .owl-controls .owl-nav .owl-next,
+.carousel-description-style .owl-carousel .owl-controls .owl-nav .owl-prev {
+    border-color: #26B8F3;
+}
