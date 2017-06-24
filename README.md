@@ -1,6 +1,23 @@
 # CDTM-Deep-Learning-Drones
 Course Material for CDTM Deep Learning Drones Course
+## Citation
+If you find this useful for your research please cite our paper:
+```
 
+@inbook{Christ2016,
+	Author = {Christ, Patrick Ferdinand and Lachner, Florian and H{\"o}sl, Axel and Menze, Bjoern and Diepold, Klaus and Butz, Andreas},
+	Booktitle = {Computer Vision -- ECCV 2016 Workshops: Amsterdam, The Netherlands, October 8-10 and 15-16, 2016, Proceedings, Part II},
+	Doi = {10.1007/978-3-319-48881-3_17},
+	Editor = {Hua, Gang and J{\'e}gou, Herv{\'e}},
+	Isbn = {978-3-319-48881-3},
+	Pages = {238--253},
+	Publisher = {Springer International Publishing},
+	Title = {Human-Drone-Interaction: A Case Study to Investigate the Relation Between Autonomy and User Experience},
+	Url = {http://dx.doi.org/10.1007/978-3-319-48881-3_17},
+	Year = {2016},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1007/978-3-319-48881-3_17}}
+
+```
 ## Usage Docker Container
 ### Build from scratch using
 ```
